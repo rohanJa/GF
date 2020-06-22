@@ -20,7 +20,7 @@ class Search extends Component {
             [e.target.name]: e.target.value                 //e.target name is used beacause if we want onChange function 
         })                                                  //for email change we have to create another function so due to this we can access
                                                             // the name of particular input without creating different onChange function by.
-    }                                                      //using name attribute assigned to the corresponding input
+    }                                                       //using name attribute assigned to the corresponding input
 
     onSubmit = (e) => {
         e.preventDefault();
