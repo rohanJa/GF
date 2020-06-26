@@ -1,14 +1,14 @@
 ## Description
     This project helps to find the user using thier Github Username and more about their github profile.
 
-## Various Component in this project 
+## Various Component in this project are :-
 
 - #### [layout](./src/components/layout)
 - #### [pages](./src/components/pages)
 - #### [repos](./src/components/repos)
 - #### [users](./src/components/users)
 
-## Few of them described below 
+## Few of the Component are described below :- 
 
 - #### [User](./src/components/users/User.js) 
     It will display the information of corresponding user when it's profile is checked.
