@@ -24,3 +24,5 @@
     It will render when an errorneous link accessed.
 - #### [Home](./src/components/pages/Home.js)
     It contains both Search and Users Component. 
+
+    This project is developed in the guidance of [Brad Traversy](https://github.com/bradtraversy/)
