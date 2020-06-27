@@ -13,10 +13,15 @@ import {
 let githubClientId;
 let githubClientSecret;
 
-if(process.env.NODE_ENV !== 'production'){
+// REACT_APP_GITHUB_CLIENT_ID and REACT_APP_GITHUB_CLIENT_SECRET are github
+// credentials defined when we use it in local production mode
+
+if(process.env.NODE_ENV !== 'production'){      
     githubClientId = process.env.REACT_APP_GITHUB_CLIENT_ID
     githubClientSecret = process.env.REACT_APP_GITHUB_CLIENT_SECRET
 }
+// GITHUB_CLIENT_ID and GITHUB_CLIENT_SECRET are variable defined in github netlify server.
+// So when this run on server it will take variable from thier.
 else{
     githubClientId = process.env.GITHUB_CLIENT_ID
     githubClientSecret = process.env.GITHUB_CLIENT_SECRET
